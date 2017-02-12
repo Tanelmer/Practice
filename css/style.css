@@ -8,15 +8,13 @@
 
 #banner {
     position: relative;
-    width: 1140px;
     height: 420px;
     overflow: hidden;
 }
 
 #banner_list img {
     border: 0px;
-    width: 1140px;
-    height: 420px;
+	width: 100%;
 }
 
 #banner_bg {

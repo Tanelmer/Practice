@@ -279,10 +279,18 @@
     </div>
 </div>
 <script>
+$(function(){
+	if(navigator.userAgent.match(/AppleWebKit.*Mobile.*/)){
+		alert('抱歉，暂不支持移动端访问。');
+		setTimeout(function(){
+			window.location.href = "https://tanelmer.github.io/CVDemo";
+		},2000);
+	}
     $(".foot .back").click(function () {
         $("body,html").animate({scrollTop: 0}, 1000)
         return false;
-    })
+    });
+})
 </script>
 </div>
 
